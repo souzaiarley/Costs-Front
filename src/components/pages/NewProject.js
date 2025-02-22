@@ -13,7 +13,7 @@ function NewProject() {
         project.cost = 0;
         project.services = [];
 
-        fetch("https://costs-2wb8.onrender.com/projects", {
+        fetch("https://costs-back.onrender.com/projects", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

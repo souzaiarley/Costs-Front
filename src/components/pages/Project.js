@@ -25,7 +25,7 @@ function Project() {
 
     useEffect(() => {
         setTimeout(() =>{
-            fetch(`https://costs-2wb8.onrender.com/projects/${id}`, {
+            fetch(`https://costs-back.onrender.com/projects/${id}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json'
@@ -48,7 +48,7 @@ function Project() {
             return false;
         }
 
-        fetch(`https://costs-2wb8.onrender.com/projects/${project.id}`, {
+        fetch(`https://costs-back.onrender.com/projects/${project.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
@@ -85,7 +85,7 @@ function Project() {
 
         project.cost = newCost;
 
-        fetch(`https://costs-2wb8.onrender.com/projects/${project.id}`, {
+        fetch(`https://costs-back.onrender.com/projects/${project.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
@@ -112,7 +112,7 @@ function Project() {
         projectUpdated.services = servicesUpdated;
         projectUpdated.cost = parseFloat(project.cost) - parseFloat(cost);
 
-        fetch(`https://costs-2wb8.onrender.com/projects/${project.id}`, {
+        fetch(`https://costs-back.onrender.com/projects/${project.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'

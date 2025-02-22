@@ -11,7 +11,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
     const [project, setProject] = useState(projectData || {});
 
     useEffect(() => {
-        fetch("https://costs-2wb8.onrender.com/categories", {
+        fetch("https://costs-back.onrender.com/categories", {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
