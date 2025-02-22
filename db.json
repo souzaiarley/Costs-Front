@@ -1,0 +1,81 @@
+{
+  "projects": [
+    {
+      "id": "e359",
+      "name": "meu projeto 5",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "8ef7",
+      "name": "projeto atualizado2",
+      "budget": "1300",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 600,
+      "services": [
+        {
+          "name": "serviço 1",
+          "cost": "300",
+          "description": "descrição do serviço 1",
+          "id": "d8f602e0-c1a0-4de1-84fb-0e0a2c921649"
+        },
+        {
+          "name": "serviço 2",
+          "description": "descrição do serviço 2",
+          "cost": "300",
+          "id": "895293f7-e6f9-4c3d-ac13-be13fa092aaa"
+        }
+      ]
+    },
+    {
+      "id": "f78e",
+      "name": "projeto final",
+      "budget": "15000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 6000,
+      "services": [
+        {
+          "name": "primeiro serviço",
+          "cost": "1000",
+          "description": "descrição do primeiro serviço.",
+          "id": "575b3af0-a192-462c-a3c8-6034dea0f6a8"
+        },
+        {
+          "name": "segundo serviço",
+          "cost": "5000",
+          "description": "descrição do segundo serviço.",
+          "id": "53523aab-aeb7-4ed1-bd53-47bf66e7a2ba"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}
